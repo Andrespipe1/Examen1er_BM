@@ -19,6 +19,7 @@ public class R4_UIO_RIOB_Vip extends Vip {
     @Override
     public void mostrarInfo(){
         super.mostrarInfo();
+        System.out.println("Ruta Quito - Riobamba");
         System.out.println("BUS: "+placaBus+"| Tiempo de viaje: "+horasViaje+" horas | Precio Viaje sin recargo: "+precioPasaje);
     }
 }

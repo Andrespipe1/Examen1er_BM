@@ -18,6 +18,7 @@ public class R2_UIO_TLC extends Normal{
     @Override
     public void mostrarInfo(){
         super.mostrarInfo();
+        System.out.println("Ruta Quito - Tulcan");
         System.out.println("BUS: "+placaBus+"| Tiempo de viaje: "+horasViaje+" horas | Precio Viaje: "+precioPasaje);
     }
 }

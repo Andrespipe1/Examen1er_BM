@@ -19,6 +19,7 @@ public class R1_UIO_GYE extends Normal{
     @Override
     public void mostrarInfo(){
         super.mostrarInfo();
+        System.out.println("Ruta Quito - Guayaquil");
         System.out.println("BUS: "+placaBus+"| Tiempo de viaje: "+horasViaje+" horas | Precio Viaje: "+precioPasaje);
     }
 }

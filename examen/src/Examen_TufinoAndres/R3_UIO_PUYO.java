@@ -18,6 +18,7 @@ public class R3_UIO_PUYO extends Normal{
     @Override
     public void mostrarInfo(){
         super.mostrarInfo();
+        System.out.println("Ruta Quito - Puyo");
         System.out.println("BUS: "+placaBus+"| Tiempo de viaje: "+horasViaje+" horas | Precio Viaje: "+precioPasaje);
     }
 }

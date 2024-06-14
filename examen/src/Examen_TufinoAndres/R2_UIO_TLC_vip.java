@@ -19,6 +19,7 @@ public class R2_UIO_TLC_vip extends Vip{
     @Override
     public void mostrarInfo(){
         super.mostrarInfo();
+        System.out.println("Ruta Quito - Tulcan");
         System.out.println("BUS: "+placaBus+"| Tiempo de viaje: "+horasViaje+" horas | Precio Viaje sin recargo: "+precioPasaje);
     }
 }
